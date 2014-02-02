@@ -34,12 +34,12 @@
 	
 
 	if($_SESSION["role"]==1)
-         echo "words.php?arg1=";
+         echo "words.php?role=1";
         else
-         echo "admin.php";
+	 echo "words.php?role=2";
         }
 	else
-	 echo "Err"
+	 echo "login.php?err_val=1"
 
 
 ?>
