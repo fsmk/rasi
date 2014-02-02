@@ -195,4 +195,16 @@ $(document).ready(function(){
 </div>
 <!-- end #footer -->
 </body>
+<?php
+echo $_GET[err_val];
+if($_GET[err_val]==1)
+{
+echo "<script>alert('The username and password not exist Sign Up for new user');</script>";
+}/*
+else if($_GET[err_val]==2)
+{
+echo "<script>alert('The username already exist try with different username');</script>";
+}*/
+
+?>
 </html>
