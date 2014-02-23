@@ -12,4 +12,4 @@ most appropriate local version of each term.
 -Create database rasi in local mysql database
 -refere the file sql/rasi.sql and restore the same to 'rasi' database.
 -modify dbConfig.php file to configure your local mysql credentials.
-
+-new line
